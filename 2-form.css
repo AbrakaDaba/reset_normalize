@@ -1,0 +1,113 @@
+/* FORM */
+form{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: rgb(231, 231, 231);
+    border: 1px solid rgb(120, 61, 228);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,.5);
+}
+form, form *{
+    box-sizing: border-box;
+}
+
+/* FIELDSET */
+fieldset{
+    border-radius: 10px;
+    border: 1px solid deepskyblue;
+    padding: 25px;
+}
+
+/* LEGEND */
+legend{
+    color: deepskyblue;
+    font-size: 24px;
+}
+
+/* GLOBAL LABEL */
+label{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(70, 69, 69);
+    margin-bottom: 5px;
+    display: inline-block;
+}
+/* GLOBAL INPUT - Width , padding, border, border-radius */
+input{
+    border: 2px solid rgba(0, 191, 255, 0.288);
+    color: rgb(109, 122, 156);
+    font-size: 22px;
+    line-height: 40px;
+    padding: 0 10px; 
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+/* FOCUS STATE */
+input:focus, select:focus{
+    outline: none;
+    border: 2px solid deepskyblue;
+    color: deepskyblue;
+}
+
+/* TYPE COLOR */
+input[type='color']{
+    width: 50px;
+    height: 40px; 
+    overflow: hidden;
+    border: 1px solid deepskyblue;
+}
+
+/* INPUT WITH ICON */
+input[type='search']{ 
+    width: 350px;
+    background-image: url('./search.png');
+    background-size: 30px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    transition: 1s ease
+}
+input[type='search']:focus{
+    width: 100%
+}
+ 
+/* RADIO & CHECKBOX */
+input[type='radio'], input[type="checkbox"]{ 
+    width: auto;
+    margin: 0;
+    height: inherit;
+}
+
+/* TEXTAREA */
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+textarea:not([disabled]){
+    resize: vertical;
+}
+
+  /* SELECT */
+  select {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }

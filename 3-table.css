@@ -1,0 +1,49 @@
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.table-wrap{
+    max-width: 100vw;
+    overflow-x: auto;
+}
+
+table { 
+    /* border-collapse: collapse; */
+}
+
+th {
+    text-align: left;
+    background-color: lightslategray;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+tr:nth-child(odd), td:nth-child(odd) {
+    background: rgba(173, 216, 230, 0.418)
+}
+td:hover{
+    background-color: lightyellow;
+}
+td{
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+
+.parrent{
+    margin: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    overflow:hidden
+}
+
+.child{
+    width: 100%;
+    height: 100%;
+    background-color: tomato;
+    opacity: .5;
+}

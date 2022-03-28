@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;padding: 0;box-sizing: border-box;
+    }
+    section{
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        outline: 1px solid red;
+        box-sizing: border-box;
+    }
+    article{
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid blue;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+    @media only screen and (min-width: 992px) {
+        article{
+            background: chartreuse;
+            padding: 30px;
+        }
+    }
+</style>
+<body>
+    <section>
+        <article>
+            <h2>This is first article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis eligendi libero, eveniet aut deleniti accusamus voluptatibus nisi quam eos?</p>
+        </article>
+        <article>
+            <h2>This is second article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis eligendi libero, eveniet aut deleniti accusamus voluptatibus nisi quam eos?</p>
+        </article>
+    </section>
+</body>
+</html>
