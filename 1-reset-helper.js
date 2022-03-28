@@ -7,7 +7,7 @@ choices.forEach((el) => {
         let choice = elem.target.innerHTML.toLowerCase() 
         let linkCssTag = document.querySelector('[rel="stylesheet"]')
         if(choice !== "user agent stylesheet"){
-            linkCssTag.setAttribute("href",`1-${choice}.css`)
+            linkCssTag.setAttribute("href",`./1-${choice}.css`)
         }else{
             linkCssTag.setAttribute("href","")
         }
